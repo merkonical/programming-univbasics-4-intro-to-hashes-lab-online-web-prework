@@ -28,6 +28,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash,key)
+  
+end
   # given a hash and a key as parameters, return an updated hash
   update_counting_hash={:apple => 3}
 if update_hash[:apples]
