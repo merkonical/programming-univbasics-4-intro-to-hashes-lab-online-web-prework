@@ -27,7 +27,7 @@ def read_from_hash(hash, key)
   hash[key]
 end
 
-def update_counting_hash(hash, key)
+def update_counting_hash({},"hello")
   # given a hash and a key as parameters, return an updated hash
   update_counting_hash = { hash => key }
   # if the provided key is not present in the hash, add it and assign it to the value of 1
