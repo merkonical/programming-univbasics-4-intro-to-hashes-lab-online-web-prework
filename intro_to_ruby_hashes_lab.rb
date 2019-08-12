@@ -35,7 +35,7 @@ def update_counting_hash(hash,key)
   if update_hash_counting[hash]
   
   # if the provided key is present, increment its value by 1
-  update_hash_counting[hash] += 1
+    update_hash_counting[hash] += 1
  end 
 end
 
